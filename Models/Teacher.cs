@@ -11,8 +11,9 @@
         public int SchoolId { get; set; }
         public School? School { get; set; }
 
-        
+
         public ICollection<Subject> Subjects { get; set; } = new List<Subject>();
+        public bool IsDeleted { get; set; } = false;
     }
 }
     

@@ -10,6 +10,7 @@
         
         public int TeacherId { get; set; }
         public Teacher? Teacher { get; set; }
+        public bool IsDeleted { get; set; } = false;
     }
 }
     
